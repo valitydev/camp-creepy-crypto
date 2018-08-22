@@ -1,0 +1,17 @@
+{application, lenex, [
+    {description, "Length Extension Victim"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {lenex_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy,
+        genlib
+    ]},
+    {env,[]},
+    {modules, []},
+    {maintainers, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+]}.
