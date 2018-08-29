@@ -1,7 +1,5 @@
 {"1.1.0",
-[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.4.0">>},0},
- {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.3.0">>},1},
- {<<"genlib">>,
+[{<<"genlib">>,
   {git,"https://github.com/rbkmoney/genlib",
        {ref,"8501050c19e5a36063cf0ae0d181245662bdfa32"}},
   0},
@@ -9,8 +7,6 @@
  {<<"swab">>,{pkg,<<"swab">>,<<"1.0.4">>},0}]}.
 [
 {pkg_hash,[
- {<<"cowboy">>, <<"F1B72FABE9C8A5FC64AC5AC85FB65474D64733D1DF52A26FAD5D4BA3D9F70A9F">>},
- {<<"cowlib">>, <<"BBD58EF537904E4F7C1DD62E6AA8BC831C8183CE4EFA9BD1150164FE15BE4CAA">>},
  {<<"ranch">>, <<"2609724C9A7E163CA716A46C9087E037DB4262935F5D866122BA158ED917C233">>},
  {<<"swab">>, <<"A86E045397891B7C09394823F92627445C43874AA6ECDAB68D12D13728F9404F">>}]}
 ].
