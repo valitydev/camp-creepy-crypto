@@ -1,0 +1,6 @@
+-sname nossh
+
+-setcookie nossh
+
++K true
++A 10

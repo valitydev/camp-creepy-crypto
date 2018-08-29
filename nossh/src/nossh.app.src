@@ -1,0 +1,20 @@
+{application, nossh, [
+    {description, "SSH Non-atomic Decryption Victim"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {nossh_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        ranch,
+        genlib,
+        swab,
+        crypto,
+        ssh
+    ]},
+    {env,[]},
+    {modules, []},
+    {maintainers, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+]}.
