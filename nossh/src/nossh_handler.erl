@@ -55,7 +55,7 @@ loop(St = #{socket := Socket, transport := Transport, opts := Opts}) ->
             case handle_packet_part(Data, St) of
                 {ok, Packet, St1} ->
                     _ = io:format("===== Packet from ~p =====~n", [Socket]),
-                    _ = swab_hexdump:hexdump(Packet),
+                    % _ = swab_hexdump:hexdump(Packet),
                     _ = io:format("~n", []),
                     loop(St1);
                 {more, St1} ->
