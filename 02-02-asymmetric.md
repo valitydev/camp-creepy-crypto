@@ -97,7 +97,7 @@ $ (pk, sk) \xleftarrow{R} G() $
 
 $ y \leftarrow F(pk,x) $
 
-$ x \leftarrow F^{-1}(sk,x) $
+$ x \leftarrow F^{-1}(sk,y) $
 
 --
 
@@ -308,7 +308,7 @@ $ \\quad m $
 
 У подслушивающих нас лиц на руках остались только $ u = g^{\alpha} \pmod{p} $ и $ v = g^{\beta} \pmod{p} $.
 
-* Могут ли они вычислить $ g^{\alpha} \pmod{p} $?
+* Могут ли они вычислить $ g^{\alpha\beta} \pmod{p} $?
 
 --
 
